@@ -1,0 +1,140 @@
+
+FILE: ...tent\plugins\click-to-chat-whatso\includes\WHATSO_Activation.php
+----------------------------------------------------------------------
+FOUND 56 ERRORS AND 14 WARNINGS AFFECTING 45 LINES
+----------------------------------------------------------------------
+   1 | ERROR   | [ ] Filenames should be all lowercase with hyphens
+     |         |     as word separators. Expected
+     |         |     whatso-activation.php, but found
+     |         |     WHATSO_Activation.php.
+   1 | ERROR   | [ ] Class file names should be based on the class
+     |         |     name with "class-" prepended. Expected
+     |         |     class-whatso-activation.php, but found
+     |         |     WHATSO_Activation.php.
+   1 | ERROR   | [ ] Missing file doc comment
+   1 | ERROR   | [x] End of line character is invalid; expected "\n"
+     |         |     but found "\r\n"
+   2 | ERROR   | [ ] Missing doc comment for class WHATSO_Activation
+   3 | ERROR   | [x] Whitespace found at end of line
+   7 | ERROR   | [x] Space between function name and opening
+     |         |     parenthesis is prohibited.
+  14 | ERROR   | [x] Whitespace found at end of line
+  17 | ERROR   | [ ] There must be no blank lines after the function
+     |         |     comment
+  18 | ERROR   | [x] Whitespace found at end of line
+  19 | ERROR   | [x] Space between function name and opening
+     |         |     parenthesis is prohibited.
+  20 | ERROR   | [x] Tabs must be used to indent lines; spaces are
+     |         |     not allowed
+  20 | ERROR   | [x] Whitespace found at end of line
+  21 | WARNING | [x] Equals sign not aligned with surrounding
+     |         |     assignments; expected 5 spaces but found 1 space
+  23 | ERROR   | [x] Concat operator must be surrounded by a single
+     |         |     space
+  24 | ERROR   | [x] Line indented incorrectly; expected 2 tabs,
+     |         |     found 3
+  25 | WARNING | [ ] Found precision alignment of 3 spaces.
+  26 | ERROR   | [x] Line indented incorrectly; expected 2 tabs,
+     |         |     found 3
+  27 | ERROR   | [x] Tabs must be used to indent lines; spaces are
+     |         |     not allowed
+  27 | WARNING | [x] Equals sign not aligned with surrounding
+     |         |     assignments; expected 6 spaces but found 1 space
+  27 | ERROR   | [x] Concat operator must be surrounded by a single
+     |         |     space
+  28 | ERROR   | [x] No space found after comma in argument list
+  28 | ERROR   | [x] No space found after comma in argument list
+  28 | ERROR   | [x] Concat operator must be surrounded by a single
+     |         |     space
+  29 | WARNING | [ ] This comment is 60% valid code; is this
+     |         |     commented out code?
+  29 | ERROR   | [x] No space found before comment text; expected "//
+     |         |     rename( $source, $destination );" but found
+     |         |     "//rename( $source, $destination );"
+  29 | ERROR   | [ ] Inline comments must end in full-stops,
+     |         |     exclamation marks, or question marks
+  31 | ERROR   | [x] Line indented incorrectly; expected 2 tabs,
+     |         |     found 3
+  31 | ERROR   | [x] Expected 1 space(s) after closing parenthesis;
+     |         |     found 0
+  31 | ERROR   | [x] Space between opening control structure and
+     |         |     closing parenthesis is required
+  32 | WARNING | [ ] Found precision alignment of 1 spaces.
+  32 | WARNING | [x] Equals sign not aligned with surrounding
+     |         |     assignments; expected 1 space but found 0 spaces
+  32 | ERROR   | [x] Expected 1 space before "="; 0 found
+  32 | ERROR   | [x] Expected 1 space after "="; 0 found
+  32 | ERROR   | [x] String "false" does not require double quotes;
+     |         |     use single quotes instead
+  33 | WARNING | [ ] Found precision alignment of 1 spaces.
+  33 | WARNING | [x] Equals sign not aligned with surrounding
+     |         |     assignments; expected 19 spaces but found 1
+     |         |     space
+  33 | ERROR   | [x] Expected 1 space after comma in argument list; 2
+     |         |     found
+  33 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 2
+     |         |     found
+  34 | ERROR   | [x] Line indented incorrectly; expected 2 tabs,
+     |         |     found 3
+  48 | ERROR   | [x] Whitespace found at end of line
+  50 | ERROR   | [x] Whitespace found at end of line
+  56 | ERROR   | [x] Whitespace found at end of line
+  59 | ERROR   | [x] Whitespace found at end of line
+  62 | ERROR   | [x] Whitespace found at end of line
+  66 | ERROR   | [x] Whitespace found at end of line
+  69 | ERROR   | [x] Expected 1 space after closing brace; newline
+     |         |     found
+  73 | ERROR   | [x] Whitespace found at end of line
+  82 | ERROR   | [ ] Method name "loadTextDomain" in class
+     |         |     WHATSO_Activation is not in snake case format,
+     |         |     try "load_text_domain"
+  82 | ERROR   | [x] Space between function name and opening
+     |         |     parenthesis is prohibited.
+  83 | ERROR   | [x] Concat operator must be surrounded by a single
+     |         |     space
+  88 | ERROR   | [x] There must be exactly one blank line before the
+     |         |     tags in a doc comment
+  91 | ERROR   | [x] Tabs must be used to indent lines; spaces are
+     |         |     not allowed
+  92 | WARNING | [x] Equals sign not aligned with surrounding
+     |         |     assignments; expected 4 spaces but found 1 space
+  93 | WARNING | [x] Equals sign not aligned with surrounding
+     |         |     assignments; expected 9 spaces but found 1 space
+  94 | WARNING | [x] Equals sign not aligned with surrounding
+     |         |     assignments; expected 3 spaces but found 1 space
+  96 | ERROR   | [x] No space found before comment text; expected "//
+     |         |     Check to see if the table exists already, if
+     |         |     not, then create it" but found "//Check to see
+     |         |     if the table exists already, if not, then create
+     |         |     it"
+  96 | ERROR   | [ ] Inline comments must end in full-stops,
+     |         |     exclamation marks, or question marks
+  97 | WARNING | [ ] Usage of a direct database call is discouraged.
+  97 | WARNING | [ ] Direct database call without caching detected.
+     |         |     Consider using wp_cache_get() / wp_cache_set()
+     |         |     or wp_cache_delete().
+ 120 | ERROR   | [x] Tabs must be used to indent lines; spaces are
+     |         |     not allowed
+ 120 | WARNING | [x] "require_once" is a statement not a function; no
+     |         |     parentheses are required
+ 121 | ERROR   | [x] Tabs must be used to indent lines; spaces are
+     |         |     not allowed
+ 121 | ERROR   | [x] Expected 1 spaces after opening parenthesis; 0
+     |         |     found
+ 121 | ERROR   | [x] Expected 1 spaces before closing parenthesis; 0
+     |         |     found
+ 122 | ERROR   | [x] Tabs must be used to indent lines; spaces are
+     |         |     not allowed
+ 127 | ERROR   | [x] There must be exactly one blank line before the
+     |         |     tags in a doc comment
+ 129 | ERROR   | [x] Expected 0 spaces between parenthesis of
+     |         |     function declaration; 1 found
+ 130 | ERROR   | [ ] Inline comments must end in full-stops,
+     |         |     exclamation marks, or question marks
+ 133 | ERROR   | [x] File must end with a newline character
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 55 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 343ms; Memory: 10MB
+
