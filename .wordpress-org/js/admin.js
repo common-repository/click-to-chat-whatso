@@ -166,7 +166,6 @@ jQuery(function($) {
 		
 		/*	Add new contact. */
 		var template = DOM.body.find( 'template#account-item' ).html(),
-			
 			currentId = parseInt( DOM.body.find( '.whatso-account-item' ).length ),
 			accountContainer = DOM.body.find( '.whatso-account-items' )
 			;

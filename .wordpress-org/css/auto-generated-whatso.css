@@ -1,0 +1,67 @@
+.whatso-container .whatso-toggle,
+.whatso-container .whatso-mobile-close,
+.whatso-container .whatso-description,
+.whatso-container .whatso-description a {
+    background-color: rgba(33, 235, 228, 1);
+    color: rgba(252, 244, 244, 1);
+}
+.whatso-container .whatso-description p {
+    color: rgba(252, 244, 244, 1);
+}
+.whatso-container .whatso-toggle svg {
+    fill: rgba(252, 244, 244, 1);
+}
+.whatso-container .whatso-box {
+    background-color: rgba(255, 255, 255, 1);
+}
+.whatso-container .whatso-gdpr,
+.whatso-container .whatso-account {
+    color: rgba(0, 0, 0, 1);
+}
+.whatso-container .whatso-account:hover {
+    background-color: rgba(18, 224, 193, 1);
+    border-color: rgba(18, 224, 193, 1);
+    color: rgba(224, 64, 32, 1);
+}
+.whatso-box .whatso-account,
+.whatso-container .whatso-account.whatso-offline:hover {
+    border-color: rgba(245, 245, 245, 1);
+}
+.whatso-container .whatso-account.whatso-offline:hover {
+    border-radius: 0;
+}
+
+.whatso-container .whatso-box:before,
+.whatso-container .whatso-box:after {
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+}
+.whatso-container .whatso-close:before,
+.whatso-container .whatso-close:after {
+    background-color: rgba(252, 244, 244, 1);
+}
+
+.whatso-button {
+    background-color: rgba(230, 23, 161, 1) !important;
+    color: rgba(19, 212, 29, 1) !important;
+}
+.whatso-button:hover {
+    background-color: rgba(168, 16, 29, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.whatso-button.whatso-offline,
+.whatso-button.whatso-offline:hover {
+    background-color: #a0a0a0 !important;
+    color: #ffffff !important;
+}
+
+@keyframes toast {
+    from {
+        background: rgba(250, 0, 0, 1);
+        }
+    
+    to {
+        background: rgba(255, 255, 255, 1);
+        }
+}
